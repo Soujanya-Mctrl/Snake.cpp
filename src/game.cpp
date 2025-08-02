@@ -75,19 +75,23 @@ void handleInput()
         {
         case 'a':
         case 'A':
-            dir = LEFT;
+            if (dir != RIGHT)
+                dir = LEFT;
             break;
         case 'd':
         case 'D':
-            dir = RIGHT;
+            if (dir != LEFT)
+                dir = RIGHT;
             break;
         case 'w':
         case 'W':
-            dir = UP;
+            if (dir != DOWN)
+                dir = UP;
             break;
         case 's':
         case 'S':
-            dir = DOWN;
+            if (dir != UP)
+                dir = DOWN;
             break;
         case 'x':
         case 'X':

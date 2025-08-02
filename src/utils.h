@@ -13,7 +13,7 @@
 using namespace std;
 
 // Dimensions of the game board
-const int width = 20;
+const int width = 30;
 const int height = 20;
 
 // Movement directions
