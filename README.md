@@ -15,34 +15,26 @@ Move the snake with **WASD** keys, eat the fruit `F`, and try not to collide wit
 
 ---
 
-## 📁 Project Structure
-
-```
-SNAKE_GAME/
-├── assets/        # (optional for future use)
-├── build/         # Compiled binary output
-├── src/           # All C++ source and header files
-│   ├── main.cpp
-│   ├── game.cpp / game.h
-│   ├── snake.cpp / snake.h
-│   ├── food.cpp / food.h
-│   └── utils.h
-└── README.md
-```
-
----
-
 ## 🛠️ How to Compile & Run
+
+### 📁 Step 0: Create Build Folder
+
+Make sure you're in the root directory (`SNAKE_GAME/`) and run:
+
+```bash
+mkdir -p build      # Linux / macOS
+mkdir build         # Windows (Command Prompt)
+```
 
 ### 🔧 Step 1: Compile
 
-Make sure you're in the root directory (`SNAKE_GAME/`) and run:
+Run the following command to compile the game:
 
 ```bash
 g++ src/*.cpp -o build/snake
 ```
 
-### ▶️ Step 2: Run the game
+### ▶️ Step 2: Run the Game
 
 ```bash
 ./build/snake      # Linux / macOS
@@ -74,6 +66,6 @@ build\snake.exe    # Windows
 
 ## 🧐 Built With
 
-* C++11
+* C++17
 * Windows Terminal
 * `<conio.h>` and `<windows.h>` for input & delays
