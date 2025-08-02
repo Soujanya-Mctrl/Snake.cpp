@@ -15,23 +15,6 @@ Move the snake with **WASD** keys, eat the fruit `F`, and try not to collide wit
 
 ---
 
-## 📁 Project Structure
-
-```
-SNAKE_GAME/
-├── assets/        # (optional for future use)
-├── build/         # Compiled binary output
-├── src/           # All C++ source and header files
-│   ├── main.cpp
-│   ├── game.cpp / game.h
-│   ├── snake.cpp / snake.h
-│   ├── food.cpp / food.h
-│   └── utils.h
-└── README.md
-```
-
----
-
 ## 🛠️ How to Compile & Run
 
 ### 🔧 Step 1: Compile
